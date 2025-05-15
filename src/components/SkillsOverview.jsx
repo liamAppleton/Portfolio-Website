@@ -1,11 +1,11 @@
 import { SkillCard } from './SkillCard';
-import { skills } from '../data/skills';
+import { skills } from '../data/skillData';
 
 export const SkillsOverview = () => {
   return (
     <>
       <h1>Skills Overview</h1>
-      <div className="d-flex flex-wrap gap-3">
+      <div className="d-flex flex-wrap gap-3 mb-3">
         <SkillCard
           title={skills.languages.title}
           skills={skills.languages.skills}
