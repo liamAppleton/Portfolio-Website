@@ -5,6 +5,7 @@ export const ProjectsDisplay = () => {
   return (
     <>
       <ProjectCard projectData={projects.ncNewsFe} />
+      <ProjectCard projectData={projects.ncNewsBe} />
     </>
   );
 };
