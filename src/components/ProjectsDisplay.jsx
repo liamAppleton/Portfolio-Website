@@ -4,8 +4,11 @@ import { projects } from '../data/projectData';
 export const ProjectsDisplay = () => {
   return (
     <>
-      <ProjectCard projectData={projects.ncNewsFe} />
-      <ProjectCard projectData={projects.ncNewsBe} />
+      <h1>Projects</h1>
+      <div className="d-flex flex-wrap gap-3 mb-3">
+        <ProjectCard projectData={projects.ncNewsFe} />
+        <ProjectCard projectData={projects.ncNewsBe} />
+      </div>
     </>
   );
 };
