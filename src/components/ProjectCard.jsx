@@ -1,4 +1,5 @@
 import { Card, Row, Col } from 'react-bootstrap';
+import { FaGithub } from 'react-icons/fa';
 
 export const ProjectCard = ({ projectData }) => {
   const { title, description, links, image } = projectData;
@@ -32,7 +33,7 @@ export const ProjectCard = ({ projectData }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub repo
+                <FaGithub size={25} />
               </Card.Link>
             </div>
           </Card.Body>
