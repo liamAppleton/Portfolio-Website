@@ -22,23 +22,26 @@ export const ProjectCard = ({ projectData }) => {
             <Card.Text style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}>
               {description}
             </Card.Text>
-            <div>
+            <div className="d-flex flex-column align-items-start gap-2">
+              <Card.Link
+                href={links.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-0 m-0"
+              >
+                <FaGithub size={25} />
+              </Card.Link>
+
               {links.hosted && (
                 <Card.Link
                   href={links.hosted}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="p-0 m-0"
                 >
                   Hosted version
                 </Card.Link>
               )}
-              <Card.Link
-                href={links.github}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub size={25} />
-              </Card.Link>
             </div>
           </Card.Body>
         </Col>
