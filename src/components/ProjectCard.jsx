@@ -4,15 +4,19 @@ import { FaGithub } from 'react-icons/fa';
 export const ProjectCard = ({ projectData }) => {
   const { title, description, links, image } = projectData;
   return (
-    <Card style={{ maxWidth: '100%' }} className="mx-auto">
+    <Card style={{ maxWidth: '80%' }} className="mx-auto p-0 project-card">
       <Row className="g-0">
-        <Col xs={12} md={4} className="d-flex align-items-center">
+        <Col md={12} lg={4} className="d-flex align-items-center">
           <Card.Img
+            className="project-pic p-0"
             src={image}
-            style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+            style={{
+              height: '100%',
+              objectFit: 'cover',
+            }}
           />
         </Col>
-        <Col xs={12} md={8}>
+        <Col md={12} lg={8}>
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}>

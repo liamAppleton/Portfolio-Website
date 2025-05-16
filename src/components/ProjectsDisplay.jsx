@@ -5,7 +5,7 @@ export const ProjectsDisplay = () => {
   return (
     <>
       <h1>Projects</h1>
-      <div className="d-flex flex-wrap gap-3 mb-3">
+      <div className="d-flex flex-wrap gap-5 mb-3">
         <ProjectCard projectData={projects.ncNewsFe} />
         <ProjectCard projectData={projects.ncNewsBe} />
         <ProjectCard projectData={projects.travelDiaryFe} />

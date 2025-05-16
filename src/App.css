@@ -1,3 +1,9 @@
 body {
     margin: 30px;
 }
+
+@media (max-width: 991px) {
+    .project-card {
+        max-width: 350px !important;
+    }
+}
