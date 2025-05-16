@@ -9,7 +9,7 @@ export const ProjectCard = ({ projectData }) => {
       <Row className="g-0">
         <Col md={12} lg={4} className="d-flex align-items-center">
           <Card.Img
-            className="project-pic p-0"
+            className="p-0"
             src={image}
             style={{
               height: '100%',
