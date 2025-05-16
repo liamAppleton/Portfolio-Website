@@ -30,8 +30,8 @@ export const skills = {
     ],
     Icon: GrTest,
   },
-  general: {
-    title: 'General',
+  other: {
+    title: 'Other',
     skills: [
       'Version Control - Git/GitHub',
       'Object Oriented Programming',
