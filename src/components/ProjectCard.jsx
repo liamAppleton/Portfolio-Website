@@ -4,17 +4,31 @@ import { IconBar } from './IconBar';
 
 export const ProjectCard = ({ projectData }) => {
   const { title, description, links, image, icons } = projectData;
+
+  const handleImgClick = () => {
+    const url = links.hosted ? links.hosted.link : links.github;
+    const link = document.createElement('a');
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.click();
+  };
+
   return (
-    <Card style={{ maxWidth: '80%' }} className="mx-auto p-0 project-card">
+    <Card
+      style={{ maxWidth: '80%' }}
+      className="mx-auto p-0 project-card custom-card"
+    >
       <Row className="g-0">
         <Col md={12} lg={4} className="d-flex align-items-center">
           <Card.Img
-            className="p-0"
+            className="p-0 project-img"
             src={image}
             style={{
               height: '100%',
               objectFit: 'cover',
             }}
+            onClick={handleImgClick}
           />
         </Col>
         <Col md={12} lg={8} className="d-flex flex-column">
