@@ -1,8 +1,8 @@
-import ncnewsfe from '../assets/NCnewsfrontend.png';
-import ncnewsbe from '../assets/NCnewsbackend.png';
-import travelDiary from '../assets/TravelDiary.png';
-import pokemonShowdown from '../assets/PokemonShowdown.png';
-import carRentalSystem from '../assets/CarRentalSystem.png';
+import ncnewsfe from '../assets/NCNewsFrontEnd.png';
+import ncnewsbe from '../assets/NCNewsBackEnd.png';
+import traveldiary from '../assets/TravelDiary.png';
+import pokemonshowdown from '../assets/PokemonShowdown.png';
+import carrentalsystem from '../assets/CarRentalSystem.png';
 
 export const projects = {
   ncNewsFe: {
@@ -33,20 +33,20 @@ export const projects = {
       github: 'https://github.com/The-Spice-Boys/Travel-Diary---FE',
       hosted: 'https://thetraveldiary-spiceboys.netlify.app/',
     },
-    image: travelDiary,
+    image: traveldiary,
   },
   pokemonShowdown: {
     title: 'Pokémon Showdown',
     description:
       'Poketerm is a Node.js command-line Pokémon battler that challenges players to strategically select and battle Pokémon against a randomly generated AI team. Built using Object-Oriented Programming and Inquirer.js, it features turn-based combat, type interactions, dynamic healthbars, and healing items.',
     links: { github: 'https://github.com/liamAppleton/pokemon-showdown' },
-    image: pokemonShowdown,
+    image: pokemonshowdown,
   },
   carRentalSystem: {
     title: 'Car Rental System',
     description:
       'Car Rental System is a C# console application that consolidates core C# concepts through rental management and vehicle inventory tracking, all presented in a structured Spectre.Console interface.',
     links: { github: 'https://github.com/liamAppleton/Car-Rental-System' },
-    image: carRentalSystem,
+    image: carrentalsystem,
   },
 };
