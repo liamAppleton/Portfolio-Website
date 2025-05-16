@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 export const SkillCard = ({ skillsData }) => {
   const { title, skills, Icon } = skillsData;
   return (
-    <Card style={{ width: '15rem' }}>
+    <Card style={{ width: '15rem' }} className="custom-card">
       <Card.Body>
         <div className="d-flex flex-row align-items-center justify-content-between gap-2 mb-4">
           <Card.Title className="mb-0 p-0">{title}</Card.Title>
