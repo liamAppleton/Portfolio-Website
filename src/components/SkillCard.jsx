@@ -1,13 +1,17 @@
 import Card from 'react-bootstrap/Card';
 
-export const SkillCard = ({ title, skills }) => {
+export const SkillCard = ({ skillsData }) => {
+  const { title, skills, Icon } = skillsData;
   return (
     <Card style={{ width: '15rem' }}>
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <ul>
+        <div className="d-flex flex-row align-items-center justify-content-between gap-2 mb-4">
+          <Card.Title className="mb-0 p-0">{title}</Card.Title>
+          <Icon size={20} className="p-0" />
+        </div>
+        <ul className="list-unstyled">
           {skills.map((skill, i) => {
-            return <li key={i}>{skill}</li>;
+            return <li key={i} className="mb-2">{`✅ ${skill}`}</li>;
           })}
         </ul>
       </Card.Body>
