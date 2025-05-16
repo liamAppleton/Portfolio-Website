@@ -2,26 +2,16 @@ import { SkillCard } from './SkillCard';
 import { skills } from '../data/skillData';
 
 export const SkillsOverview = () => {
+  const { languages, frontEnd, backEnd, testing, general } = skills;
   return (
     <>
       <h1>Skills Overview</h1>
-      <div className="d-flex flex-wrap gap-3 mb-3">
-        <SkillCard
-          title={skills.languages.title}
-          skills={skills.languages.skills}
-        />
-        <SkillCard
-          title={skills.frontEnd.title}
-          skills={skills.frontEnd.skills}
-        />
-        <SkillCard
-          title={skills.backEnd.title}
-          skills={skills.backEnd.skills}
-        />
-        <SkillCard
-          title={skills.general.title}
-          skills={skills.general.skills}
-        />
+      <div className="d-flex flex-wrap gap-3 mb-3 justify-content-center">
+        <SkillCard skillsData={languages} />
+        <SkillCard skillsData={frontEnd} />
+        <SkillCard skillsData={backEnd} />
+        <SkillCard skillsData={testing} />
+        <SkillCard skillsData={general} />
       </div>
     </>
   );
