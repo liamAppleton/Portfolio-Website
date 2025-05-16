@@ -2,7 +2,7 @@ import { SkillCard } from './SkillCard';
 import { skills } from '../data/skillData';
 
 export const SkillsOverview = () => {
-  const { languages, frontEnd, backEnd, testing, general } = skills;
+  const { languages, frontEnd, backEnd, testing, other } = skills;
   return (
     <>
       <h1>Skills Overview</h1>
@@ -11,7 +11,7 @@ export const SkillsOverview = () => {
         <SkillCard skillsData={frontEnd} />
         <SkillCard skillsData={backEnd} />
         <SkillCard skillsData={testing} />
-        <SkillCard skillsData={general} />
+        <SkillCard skillsData={other} />
       </div>
     </>
   );
