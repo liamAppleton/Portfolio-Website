@@ -5,7 +5,13 @@ import pokemonshowdown from '../assets/PokemonShowdown.png';
 import carrentalsystem from '../assets/CarRentalSystem.png';
 import { FaReact, FaBootstrap, FaCss3, FaNodeJs } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { SiAxios, SiExpress, SiJest, SiNetlify } from 'react-icons/si';
+import {
+  SiAxios,
+  SiExpress,
+  SiJest,
+  SiNetlify,
+  SiRender,
+} from 'react-icons/si';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { TbBrandThreejs, TbBrandCSharp } from 'react-icons/tb';
 
@@ -32,7 +38,7 @@ export const projects = {
       github: 'https://github.com/liamAppleton/nc-news-app',
       hosted: {
         link: 'https://nc-news-app-e2hd.onrender.com/api',
-        icon: SiNetlify,
+        icon: SiRender,
       },
     },
     image: ncnewsbe,
