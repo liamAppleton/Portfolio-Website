@@ -3,7 +3,7 @@ import bioPic from '../assets/BioPic.png';
 
 export const PersonalBio = () => {
   return (
-    <div className="py-4 d-flex flex-column align-items-center gap-3 p-2">
+    <div className="py-4 d-flex flex-column align-items-center gap-3 p-2 mt-4 mb-4">
       <Card style={{ width: '90%' }} className="mx-auto p-0 bio-card">
         <Row className="d-flex justify-content-center align-items-center">
           <Col xs={12} md={4} className="d-flex justify-content-center">
