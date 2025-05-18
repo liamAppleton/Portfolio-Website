@@ -1,12 +1,12 @@
-Liam Appleton - Portfolio
+# Liam Appleton - Portfolio
 
 This repository contains the source code for my personal portfolio website.
 
-🚀 Live Demo - Check out the live version [here](https://la-portfolio-dev.netlify.app/).
+## 🚀 Live Demo - Check out the live version [here](https://la-portfolio-dev.netlify.app/).
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 React
 
@@ -18,7 +18,7 @@ Netlify (Deployment)
 
 ---
 
-📦 Features
+## 📦 Features
 
 Responsive design
 
@@ -28,20 +28,28 @@ About section with a brief bio
 
 Contact section with social media links
 
-**Want a closer look?**
+## **Want a closer look?**
 
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/liamAppleton/Portfolio-Website
+   ```bash
+   git clone https://github.com/liamAppleton/Portfolio-Website
+   ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd portfolio
+   ```bash
+   cd portfolio
+   ```
 
-Install dependencies:
+3. Install dependencies:
 
-npm install
+   ```bash
+   npm install
+   ```
 
-Run locally:
+4. Start the development server:
 
-npm run dev
+   ```bash
+   npm start
+   ```
