@@ -20,22 +20,22 @@ export const NavBar = () => {
     <Navbar style={{ backgroundColor: '#5D8A6D' }}>
       <Container>
         <Nav className="ms-auto d-flex align-items-center gap-2">
-          <Nav.Link href="#home" style={{ color: '#EAE7DC' }}>
+          <Nav.Link href="#home" className="navbar-link">
             Home
           </Nav.Link>
-          <Nav.Link href="#features" style={{ color: '#EAE7DC' }}>
+          <Nav.Link href="#features" className="navbar-link">
             Projects
           </Nav.Link>
           <div className="d-flex gap-2 ms-auto me-auto">
             <FaLinkedin
               size={20}
-              className="contact-link-icon"
+              className="navbar-link"
               style={{ cursor: 'pointer' }}
               onClick={() => handleClick('linkedin')}
             />
             <FaGithub
               size={20}
-              className="contact-link-icon"
+              className="navbar-link"
               style={{ cursor: 'pointer' }}
               onClick={() => handleClick('github')}
             />
