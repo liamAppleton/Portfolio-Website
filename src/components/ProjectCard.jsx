@@ -45,7 +45,7 @@ export const ProjectCard = ({ projectData }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub size={25} />
+                  <FaGithub size={25} className="link-icon" />
                 </Card.Link>
 
                 {links.hosted && (
@@ -54,7 +54,7 @@ export const ProjectCard = ({ projectData }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {<links.hosted.icon size={25} />}
+                    {<links.hosted.icon size={25} className="link-icon" />}
                   </Card.Link>
                 )}
               </div>

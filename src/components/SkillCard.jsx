@@ -7,7 +7,7 @@ export const SkillCard = ({ skillsData }) => {
       <Card.Body>
         <div className="d-flex flex-row align-items-center justify-content-between gap-2 mb-4">
           <Card.Title className="mb-0 p-0">{title}</Card.Title>
-          <Icon size={20} className="p-0" />
+          <Icon size={20} className="p-0 non-link-icon" />
         </div>
         <ul className="list-unstyled">
           {skills.map((skill, i) => {

@@ -1,12 +1,18 @@
 import { Card, Row, Col } from 'react-bootstrap';
 import bioPic from '../assets/BioPic.png';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 export const PersonalBio = () => {
   return (
     <div className="py-4 d-flex flex-column align-items-center gap-3 p-2 mt-4 mb-4">
       <Card style={{ width: '90%' }} className="mx-auto p-0 bio-card">
         <Row className="d-flex justify-content-center align-items-center">
-          <Col xs={12} md={4} className="d-flex justify-content-center">
+          <Col
+            xs={12}
+            md={4}
+            className="d-flex flex-column gap-3 justify-content-center"
+          >
             <Card.Img
               src={bioPic}
               style={{
@@ -16,6 +22,10 @@ export const PersonalBio = () => {
                 borderRadius: '50%',
               }}
             />
+            <div className="d-flex gap-3">
+              <FaLinkedin size={25} className="link-icon" />
+              <FaGithub size={25} className="link-icon" />
+            </div>
           </Col>
           <Col xs={12} md={8}>
             <Card.Body>
