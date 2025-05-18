@@ -2,6 +2,10 @@ body {
     background-color:   #EAF4EB;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 991px) {
     .project-card {
         max-width: 400px !important;
@@ -52,5 +56,5 @@ body {
 }
 
 .non-link-icon {
-    color: #3B82F6 ;
+    color: #3B82F6;
 }
