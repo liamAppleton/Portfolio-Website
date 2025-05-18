@@ -33,6 +33,14 @@ body {
     color:  #4B5563;
 }
 
+.contact-link-icon {
+    color: 	#E0E5EC;
+}
+
+.contact-link-icon:hover {
+    color: #C4CDD5;
+}
+
 .non-link-icon {
     color: #3B82F6 ;
 }
