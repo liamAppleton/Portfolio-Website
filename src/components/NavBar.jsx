@@ -17,13 +17,13 @@ export const NavBar = () => {
     link.click();
   };
   return (
-    <Navbar style={{ backgroundColor: '#5D8A6D' }}>
+    <Navbar sticky="top" style={{ backgroundColor: '#5D8A6D' }}>
       <Container>
         <Nav className="ms-auto d-flex align-items-center gap-2">
-          <Nav.Link href="#home" className="navbar-link">
+          <Nav.Link href="#home" className="navbar-link" active={false}>
             Home
           </Nav.Link>
-          <Nav.Link href="#features" className="navbar-link">
+          <Nav.Link href="#projects" className="navbar-link" active={false}>
             Projects
           </Nav.Link>
           <div className="d-flex gap-2 ms-auto me-auto">
