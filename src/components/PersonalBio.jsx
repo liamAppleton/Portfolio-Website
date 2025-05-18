@@ -33,9 +33,9 @@ export const PersonalBio = () => {
               <Card.Text className="text-body-style">
                 Programming is definitely my passion. I have recently completed
                 the Northcoders Software Development (JavaScript) bootcamp,
-                where I've had plenty of experience coding. From building
+                where I've gained plenty of coding experience. From building
                 dynamic front end user interfaces with React.js, to robust back
-                end APIs with Node.js. I'm hungry to carry on learning new
+                end APIs with Node.js, I'm hungry to carry on learning new
                 technologies and growing my skills as a developer. Lately, I’ve
                 been diving into C#, embracing the challenge of building
                 projects to deepen my understanding and consolidate my skills.
