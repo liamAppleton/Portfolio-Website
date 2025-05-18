@@ -24,3 +24,15 @@ body {
     border: none;
     background-color: #EAF4EB;
 }
+
+.link-icon {
+    color: #6B7280;
+}
+
+.link-icon:hover {
+    color:  #4B5563;
+}
+
+.non-link-icon {
+    color: #3B82F6 ;
+}
