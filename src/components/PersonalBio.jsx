@@ -1,7 +1,5 @@
 import { Card, Row, Col } from 'react-bootstrap';
 import bioPic from '../assets/BioPic.png';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
 
 export const PersonalBio = () => {
   return (
@@ -22,10 +20,6 @@ export const PersonalBio = () => {
                 borderRadius: '50%',
               }}
             />
-            <div className="d-flex gap-3">
-              <FaLinkedin size={25} className="link-icon" />
-              <FaGithub size={25} className="link-icon" />
-            </div>
           </Col>
           <Col xs={12} md={8}>
             <Card.Body>
