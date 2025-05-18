@@ -6,12 +6,12 @@ import { PersonalBio } from './components/PersonalBio';
 
 function App() {
   return (
-    <>
+    <div id="home">
       <NavBar />
       <PersonalBio />
       <SkillsOverview />
       <ProjectsDisplay />
-    </>
+    </div>
   );
 }
 
