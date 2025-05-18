@@ -23,9 +23,11 @@ export const PersonalBio = () => {
           </Col>
           <Col xs={12} md={8}>
             <Card.Body>
-              <h2 className="mb-2">Liam Appleton</h2>
-              <p className="text-muted fs-4">Software Developer</p>
-              <Card.Text>
+              <h2 className="mb-2 heading-style">Liam Appleton</h2>
+              <p className="fs-4" style={{ color: '#8A8A8A' }}>
+                Software Developer
+              </p>
+              <Card.Text className="text-body-style">
                 Programming is definitely my passion. I have recently completed
                 the Northcoders Software Development (JavaScript) bootcamp,
                 where I've had plenty of experience coding. From building

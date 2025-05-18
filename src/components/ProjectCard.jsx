@@ -33,8 +33,11 @@ export const ProjectCard = ({ projectData }) => {
         </Col>
         <Col md={12} lg={8} className="d-flex flex-column">
           <Card.Body className="d-flex flex-column">
-            <Card.Title>{title}</Card.Title>
-            <Card.Text style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}>
+            <Card.Title className="heading-style">{title}</Card.Title>
+            <Card.Text
+              className="text-body-style"
+              style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}
+            >
               {description}
             </Card.Text>
 
