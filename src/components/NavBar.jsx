@@ -17,7 +17,13 @@ export const NavBar = () => {
     link.click();
   };
   return (
-    <Navbar sticky="top" style={{ backgroundColor: '#5D8A6D' }}>
+    <Navbar
+      sticky="top"
+      style={{
+        backgroundColor: '#5D8A6D',
+        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
+      }}
+    >
       <Container>
         <Nav className="ms-auto d-flex align-items-center gap-2">
           <Nav.Link href="#home" className="navbar-link" active={false}>
